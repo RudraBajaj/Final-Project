@@ -10,7 +10,6 @@ import RegisterPage from '../pages/RegisterPage';
 const AlumniDashboard = () => <div><h1>Alumni Dashboard Works! 🎓</h1></div>;
 const StudentDashboard = () => <div><h1>Student Dashboard Works! 🎒</h1></div>;
 const AdminDashboard = () => <div><h1>Admin Dashboard Works! ⚡</h1></div>;
-const AlumniDirectory = () => <div><h1>Alumni Directory Works! 📚</h1></div>;
 const Events = () => <div><h1>Events Works! 📅</h1></div>;
 const Donations = () => <div><h1>Donations Works! 💰</h1></div>;
 const Feedback = () => <div><h1>Feedback Works! 💬</h1></div>;
