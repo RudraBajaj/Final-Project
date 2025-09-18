@@ -26,7 +26,7 @@ export default function LandingPage() {
                 <GradientBlinds
                     gradientColors={['#FF9FFC', '#5227FF']}
                     angle={0}
-                    noise={0.25}
+                    noise={0.1}
                     blindCount={14}
                     blindMinWidth={60}
                     spotlightRadius={0.55}
@@ -75,7 +75,7 @@ export default function LandingPage() {
             <div style={{ position: 'absolute', top: '35vh', left: '50%', transform: 'translateX(-50%)', width: 'min(760px, 88vw)', padding: '20px 24px', borderRadius: 16, background: 'rgba(0,0,0,0.35)', border: '1px solid rgba(255,255,255,0.12)', color: '#EDEDF7', zIndex: 2, textAlign: 'center', backdropFilter: 'blur(8px)' }}> <h2 style={{ margin: '6px 0 8px 0', fontWeight: 700, letterSpacing: '-0.4px' }}>Alum Nexus — Chandigarh University</h2> <p style={{ margin: 0, color: '#CFCFE8' }}> A unified alumni platform for mentorship, jobs, and events, connecting graduates and students to grow together. Manage profiles, post opportunities, and stay engaged with the CU community. </p> </div>
 
             {/* Bottom InfiniteMenu section */}
-            <div style={{ position: 'absolute', left: 0, right: 0, bottom: 0, height: '38vh', zIndex: 1 }}>
+            <div style={{ position: 'absolute', left: 0, right: 0, bottom: 0, height: '38vh', zIndex: 1, color: 'white', opacity: 0.6 }}>
                 <InfiniteMenu items={alumniItems} />
             </div>
         </div>
